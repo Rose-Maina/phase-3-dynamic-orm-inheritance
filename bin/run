@@ -8,7 +8,7 @@ require_relative "../config/environment.rb"
 
 #Here, a new Song instance is created with no need for an initialize method defined in the Song class itself 
 #it is inherited from the InteractiveRecord class.
-# After the Song instance is created, info on the song's name and album is printed out with puts. 
+#After the Song instance is created, info on the song's name and album is printed out with puts. 
 #The song instance is then saved to the database.
 
 song = Song.new(name: "Hello", album: "25")
